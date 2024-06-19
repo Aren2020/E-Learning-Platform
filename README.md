@@ -47,7 +47,12 @@ This repository contains the code for an e-learning platform built using Django.
    docker-compose exec web python educa/manage.py createsuperuser
    ```
 
-6. **Access the Application**:
+6. **Collect Static**:
+   ```sh
+   docker-compose exec web python educa/manage.py collectstatic
+   ```
+
+7. **Access the Application**:
    Open your web browser and navigate to `http://localhost:80`.
 
 ## Usage
