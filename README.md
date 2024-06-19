@@ -39,12 +39,12 @@ This repository contains the code for an e-learning platform built using Django.
 
 4. **Apply Migrations**:
    ```sh
-   docker-compose exec web python manage.py migrate
+   docker-compose exec web python educa/manage.py migrate
    ```
 
 5. **Create a Superuser**:
    ```sh
-   docker-compose exec web python manage.py createsuperuser
+   docker-compose exec web python educa/manage.py createsuperuser
    ```
 
 6. **Access the Application**:
