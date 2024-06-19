@@ -4,8 +4,6 @@ This repository contains the code for an e-learning platform built using Django.
 
 ## Features
 
-- **Fixtures and Initial Data**: Use fixtures to provide initial data to models and create a flexible content management system using model inheritance. Implement custom model fields for `order` objects and develop an authentication system.
-
 - **Class-Based Views and Mixins**: Utilize class-based views and mixins to manage content. Work with groups and permissions to restrict access, and apply form sets and model form sets to manage course modules and their content. Implement JavaScript drag-and-drop functionality for reordering.
 
 - **Public Views and Course Catalog**: Create public views for the course catalog and develop a registration and enrollment system for students. Implement functionality to display various types of course module content and use the Django caching framework with Memcached and Redis.
@@ -25,7 +23,7 @@ This repository contains the code for an e-learning platform built using Django.
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/Aren/EducaWeb.git
+   git clone https://github.com/Aren2020/EducaWeb.git
    cd EducaWeb
    ```
 
@@ -44,17 +42,12 @@ This repository contains the code for an e-learning platform built using Django.
    docker-compose exec web python manage.py migrate
    ```
 
-5. **Load Initial Data**:
-   ```sh
-   docker-compose exec web python manage.py loaddata initial_data.json
-   ```
-
-6. **Create a Superuser**:
+5. **Create a Superuser**:
    ```sh
    docker-compose exec web python manage.py createsuperuser
    ```
 
-7. **Access the Application**:
+6. **Access the Application**:
    Open your web browser and navigate to `http://localhost:80`.
 
 ## Usage
