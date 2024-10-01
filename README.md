@@ -23,8 +23,8 @@ This repository contains the code for an e-learning platform built using Django.
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/Aren2020/EducaWeb.git
-   cd EducaWeb
+   git clone https://github.com/Aren2020/E-Learning-Platform.git
+   cd E-Learning-Platform.git
    ```
 
 2. **Build the Docker Image**:
